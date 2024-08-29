@@ -1,24 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-* {
+#calculator * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 #calculator {
   width: 300px;
   /* margin: 200px auto; */
   border-radius: 10px;
-
-
-
 }
 
+#calculator br {display:none !important;}
+
 #calculator form {
-  display: flex;
   flex-wrap: wrap;
+      unicode-bidi: isolate;
 }
 
 #calculator form .form-group {
@@ -61,7 +58,7 @@
   height: 30px;
 }
 
-button {
+#calculator button {
   margin: 2px;
   padding: 3px 10px;
   background-color: #28a745;
@@ -71,27 +68,27 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+#calculator button:hover {
   background-color: #218838;
 }
 
-.title {
+#calculator .title {
   text-align: center;
 }
 
 /* nav */
-.card {
+#calculator .card {
   max-width: 25rem;
   padding: 0;
   border: none;
   border-radius: 0.5rem;
 }
 
-a.active {
+#calculator a.active {
   border-bottom: 2px solid #0ca0a0;
 }
 
-#pills-tab {
+#calculator #pills-tab {
   display: table;
   table-layout: fixed;
   width: 100%;
@@ -100,12 +97,12 @@ a.active {
   list-style: none;
 }
 
-#pills-tab li {
+#calculator #pills-tab li {
   display: table-cell;
   width: 20%;
 }
 
-.nav-link {
+#calculator .nav-link {
   color: #012C3F;
   font-weight: 500;
   display: block;
@@ -118,32 +115,32 @@ a.active {
 
 }
 
-.nav-link:hover {
+#calculator .nav-link:hover {
   color: #55c57a;
 }
 
-.nav-pills .nav-link.active {
+#calculator .nav-pills .nav-link.active {
   color: #012C3F;
   background-color: white;
   border-radius: 0;
   /* font-weight: 600; */
 }
 
-.nav-pills .nav-link {
+#calculator .nav-pills .nav-link {
   border-radius: 0px !important;
 }
 
-/* .tab-content {
+/* #calculator .tab-content {
   padding-bottom: 1.3rem;
 } */
 
-.form-control {
+#calculator .form-control {
   background-color: rgb(241, 243, 247);
   border: none;
 }
 
 /* 3nd card */
-span {
+#calculator span {
   margin: auto;
   padding: 1px 10px;
   color: #0ca0a0;
@@ -154,24 +151,24 @@ span {
   justify-content: center;
 }
 
-.third {
+#calculator .third {
   padding: 0 1.5rem 0 1.5rem;
 }
 
-label {
+#calculator label {
   font-weight: 500;
   color: #012c3f;
 }
 
-.btn-success {
+#calculator .btn-success {
   float: right;
 }
 
-.form-control:focus {
+#calculator .form-control:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 7px rgba(0, 0, 0, 0.2);
 }
 
-select {
+#calculator select {
   -webkit-appearance: none;
   -moz-appearance: none;
   text-indent: 1px;
@@ -180,65 +177,65 @@ select {
 
 /* 1st card */
 
-ul {
+#calculator ul {
   list-style: none;
   margin-top: 1rem;
   padding-inline-start: 0;
 }
 
-.search {
+#calculator .search {
   padding: 0 1rem 0 1rem;
 }
 
-.ccontent li .wrapp {
+#calculator .ccontent li .wrapp {
   padding: 0.3rem 1rem 0.001rem 1rem;
 }
 
-.ccontent li .wrapp div {
+#calculator .ccontent li .wrapp div {
   font-weight: 600;
 }
 
-.ccontent li .wrapp p {
+#calculator .ccontent li .wrapp p {
   font-weight: 360;
 }
 
-.ccontent li:hover {
+#calculator .ccontent li:hover {
   background-color: rgb(117, 93, 255);
   color: white;
 }
 
 /* 2nd card */
 
-.addinfo {
+#calculator .addinfo {
   padding: 0 1rem;
 }
 
-.btn-green {
+#calculator .btn-green {
   background: #0ca0a0;
   border-color: #0ca0a0;
   color: #fff;
 }
 
-.btn-green:hover {
+#calculator .btn-green:hover {
   background: #012c3f;
   border-color: #012c3f;
   color: #fff;
 }
 
-.footer-text a {
+#calculator .footer-text a {
   font-size: 12px;
   color: #012c3f;
 }
 
-.footer-text a:hover {
+#calculator .footer-text a:hover {
   color: #0ca0a0;
 }
 
-.form-control {
+#calculator .form-control {
   font-size: 0.8rem !important;
 }
 
-.result {
+#calculator .result {
   border: 5px solid;
   text-align: center;
 }
