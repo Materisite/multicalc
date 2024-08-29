@@ -13,6 +13,10 @@
 
 #calculator br {display:none !important;}
 
+#calculator img{
+      display: inline !important;
+}
+
 #calculator form {
   flex-wrap: wrap;
       unicode-bidi: isolate;
